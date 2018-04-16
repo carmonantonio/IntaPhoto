@@ -10,16 +10,15 @@ app.use(express.static(__dirname + '/public'));
 // set the view engine to ejs
 app.set('view engine', 'ejs');
 // configure instagram app with your access token
-<<<<<<< HEAD
+
 
 ig.use({
 
     access_token: [YOUR_TOKEN_DATA],
 });
 
-=======
-// we'll get to this soon
->>>>>>> parent of 6eb59d8... v1 completed
+
+
 // SET THE ROUTES
 // ===================================================
 // home page route - our profile's images
